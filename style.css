@@ -1,0 +1,101 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+   
+   
+}
+label,input{
+    margin-bottom: 30px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    
+}
+input{
+    font-size: 16px;
+    padding: 8px;
+    width: 250px;
+}
+.tarih1,.tarih2{
+    font-size: 16px;
+    padding: 8px;
+    width: 75px;
+}
+.ccv1{
+    font-size: 16px;
+    padding: 8px;
+    width: 75px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.onayla{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.vazgec{
+    background-color:red;
+    color: white;
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.baslik{
+    background-color: aquamarine;
+   
+    width: 414px;
+    margin: auto;
+    padding: 20px;
+    
+  
+   
+    
+}
+.form{
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    width: 414px;
+    margin: auto;
+    
+    
+}
+
+h1{
+    
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: italic;
+     
+}
+label{
+    
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+      }
+      @media only screen and (max-width: 599px) {
+        
+        .baslik{
+            width: 90%;
+            margin: 0;
+        }
+        .form{
+            width: 90%;
+            margin: 0;
+        }
+    }
