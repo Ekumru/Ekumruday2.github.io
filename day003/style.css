@@ -1,0 +1,41 @@
+.logo{
+   
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo > h1 {
+    
+    align-content: center;
+    height: 100px;
+    font-family: "Grey Qo", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(146, 128, 26);
+}
+.orta{
+    display: flex;
+    flex-direction:row; 
+    height: 100vh; 
+    justify-content: center; 
+   
+    
+}
+
+  button{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+  }
+  .action{
+    background-color: rgb(198, 238, 238);
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
